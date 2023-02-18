@@ -54,6 +54,13 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Give You Five Seconds</title>
+	<meta property="og:title" content="Give You Five Seconds" />
+	<meta property="og:description" content="A game where you have 5 seconds to give 3 correct answers to a given question" />
+	<meta property="og:image" content="https://give-you-five-seconds.vercel.app/thumbnail.png" />
+</svelte:head>
+
 <div class="flex h-screen mx-2">
 	<div class="m-auto text-center">
 		<h1 class="{isStarted ? 'text-3xl' : 'text-4xl'} font-extrabold my-4">Give You Five Seconds</h1>
